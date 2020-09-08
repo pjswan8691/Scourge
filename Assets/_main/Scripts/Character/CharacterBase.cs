@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Main script of the Character
+/// Handles the inputs of the keyboard, and movement.
+/// Constrained with a clamp to make the character stick inside the map.
+/// </summary>
 public class CharacterBase : MonoBehaviour
 {
     public float speed = 5f;
